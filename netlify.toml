@@ -1,0 +1,11 @@
+[build]
+  base = "/"
+  # Build command for the VitePress site
+  command = "npm run docs:build"
+  # VitePress 的默认输出目录
+  publish = "docs/.vitepress/dist"
+
+[dev]
+  # Local dev command (used with Netlify Dev if desired)
+  command = "npm run docs:dev"
+  port = 5173

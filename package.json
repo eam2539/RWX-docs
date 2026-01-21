@@ -1,0 +1,27 @@
+{
+  "name": "rwx-docs",
+  "version": "1.0.0",
+  "description": "RWX official documentation website",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eam2539/RWX-docs.git"
+  },
+  "keywords": [
+    "rwx",
+    "documentation",
+    "rts",
+    "game"
+  ],
+  "author": "RWX Team",
+  "license": "MIT",
+  "devDependencies": {
+    "flexsearch": "^0.8.212",
+    "vitepress": "^1.6.4"
+  }
+}
